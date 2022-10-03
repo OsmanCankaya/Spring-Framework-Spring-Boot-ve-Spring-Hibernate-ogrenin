@@ -11,16 +11,12 @@ import java.io.IOException;
 public class CarWaherFilter implements Filter {
 
     public void destroy() {
-
     }
-
 
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-
         response.getWriter().write("before custom filter...");
         chain.doFilter(request, response);
         response.getWriter().write("after custom filter...");
-
     }
 }
