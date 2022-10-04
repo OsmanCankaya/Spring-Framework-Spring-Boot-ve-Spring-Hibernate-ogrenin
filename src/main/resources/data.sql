@@ -9,7 +9,7 @@ insert into car(id,model,color,driver_id,year_column) values(2,'vw','white',2,20
 insert into car(id,model,color,driver_id,year_column) values(3,'fiat','red',3,2017);
 insert into car(id,model,color,driver_id,year_column) values(4,'mercedes','yellow',4,2018);
 
-insert into carwash(id,price,date,driver_id,car_id) values(1,10,'2019-12-31',1,1);
-insert into carwash(id,price,date,driver_id,car_id) values(2,10,'2020-12-31',2,2);
-insert into carwash(id,price,date,driver_id,car_id) values(3,10,'2021-12-31',3,3);
-insert into carwash(id,price,date,driver_id,car_id) values(4,10,'2022-12-31',4,4);
+insert into carwash(id,price,date,car_id) values(1,10,'2019-12-31',1);
+insert into carwash(id,price,date,car_id) values(2,10,'2020-12-31',2);
+insert into carwash(id,price,date,car_id) values(3,10,'2021-12-31',3);
+insert into carwash(id,price,date,car_id) values(4,10,'2022-12-31',4);
